@@ -61,7 +61,6 @@ class MainActivity : Activity() {
         0x15, 0x81.toByte(), 0x25, 0x7F, 0x75, 0x08, 0x95.toByte(), 0x03, 0x81.toByte(), 0x06,
         0xC0.toByte(), 0xC0.toByte()
     )
-    )
 
     private val callback = object : BluetoothHidDevice.Callback() {
         override fun onAppStatusChanged(pluggedDevice: BluetoothDevice?, registered: Boolean) {
